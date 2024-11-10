@@ -1,0 +1,38 @@
+h1{
+ 
+    color: aquamarine;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    color: whitesmoke;
+}
+h3 {
+    color: antiquewhite;
+}
+#ab { color: rgb(43, 156, 226);
+text-decoration: wavy; }
+ /* body{
+     background-color: black;
+    
+ } */
+/* button {
+ width: 80px;
+ stroke-width: 5px;
+ font-family: 'Courier New', Courier, monospace;
+} */
+body {
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Full height of the viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    width: 80px;
+    stroke-width: 5px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(2, 1, 1);
+    font-family: 'Courier New', Courier, monospace;
+}
